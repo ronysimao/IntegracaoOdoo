@@ -79,3 +79,33 @@
 > **Próximos passos**: Corrigir o estado do filtro, garantir que o endpoint `/api/employee/:id` retorne os dados esperados e adicionar as animações nos componentes de UI.
 
 Boa codificação, Rhenan! 🚀
+
+### Passo‑a‑passo para subir o projeto ao GitHub
+
+1. **Verificar remotos configurados**  
+   ```bash
+   git remote -v
+   ```
+
+2. **Adicionar o remoto (se ainda não existir)**  
+   ```bash
+   git remote add origin https://github.com/ronysimao/IntegracaoOdoo.git
+   ```
+
+3. **Confirmar o remoto**  
+   ```bash
+   git remote -v
+   ```
+
+4. **Enviar o commit para o GitHub**  
+   ```bash
+   git push -u origin main
+   ```
+
+5. **Verificar o push**  
+   ```bash
+   git status
+   git log --oneline
+   ```
+
+> Depois disso o repositório estará sincronizado e pronto para o Rhenan continuar o desenvolvimento.
